@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "NK ",
+      "NBN",
+      " S "
+    ],
+    "key": {
+      "K": {
+        "item": "minecraft:wither_skeleton_skull"
+      },
+      "B": {
+        "item": "minecraft:blaze_rod"
+      },
+      "S": {
+        "item": "minecraft:nether_star"
+      },
+      "N": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    "result": {
+      "id": "minecraft:blaze_rod",
+      "components": {
+        "minecraft:food": {
+          "nutrition": 0,
+          "saturation": 0,
+          "can_always_eat": true,
+          "eat_seconds": 10000000,
+          "effects": []
+        },
+        "minecraft:custom_model_data": 1
+      },
+      "count": 1
+    }
+  }

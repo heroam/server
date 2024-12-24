@@ -1,0 +1,1 @@
+tellraw @s {"text":"This is a test function.","color":"yellow"}
